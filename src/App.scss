@@ -29,8 +29,16 @@ body {
     }
   }
 
-  p {
+  h2 {
     font-size: 1.3em;
+    font-family: $body-font-family;
+    font-weight: $font-weight-normal;
+  }
+
+  p {
+    color: #111;
+    font-size: 1.2em;
+    line-height: 1.7;
   }
 
   // Contact and profile links
@@ -63,12 +71,17 @@ body {
         text-transform: uppercase;
         text-decoration: none;
         background-color: #ddd;
-        transition: background-color 0.3s ease, transform 0.3s ease;
+        border-radius: 100%;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        transform: translate(0, 0);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease,
+          transform 0.3s ease;
 
         &:hover,
         &:focus {
           background-color: #dcdcdc;
-          transform: scale(1.05);
+          box-shadow: 0px 0px 0px transparent;
+          transform: translate(2px, 2px);
         }
       }
     }
