@@ -1,0 +1,32 @@
+// Set variables for typography
+$body-font-family: "Montserrat";
+$script-font-family: "Dancing Script";
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+html,
+body {
+  background: #eee;
+}
+
+#wrapper {
+  padding: 15px;
+  text-align: center;
+
+  h1 {
+    font-family: $body-font-family;
+    font-size: 1.8em;
+    font-weight: $font-weight-normal;
+
+    em {
+      display: block;
+      color: #ff69b4;
+      font-family: $script-font-family;
+      font-size: 1.8em;
+    }
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+}
