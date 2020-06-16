@@ -2,6 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import "./App.scss";
 import SocialLink from "./SocialLink";
+import kimImage from "./images/kim.jpg";
 
 const App = () => {
   return (
@@ -9,6 +10,11 @@ const App = () => {
       <h1>
         Web Portfolio for <em>Kim Blott</em>
       </h1>
+      <img
+        src={kimImage}
+        className="kim-image"
+        alt="Kim Blott smiling into camera"
+      />
       <h2>Web Developer | Problem Solver | Coffee Drinker</h2>
       <p>
         I have been working as a web developer for about 4 years but have been
