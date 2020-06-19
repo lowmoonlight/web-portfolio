@@ -10,6 +10,8 @@ const Heart = () => {
         Made with
         <span
           onClick={() => setIsPink(!isPink)}
+          onTouchStart={() => setIsPink(!isPink)}
+          onTouchEnd={() => setIsPink(!isPink)}
           onKeyUp={() => setIsPink(!isPink)}
           role="button"
           tabIndex="0"
