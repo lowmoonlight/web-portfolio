@@ -2,6 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import "./App.scss";
 import SocialLink from "./SocialLink";
+import Heart from "./Heart";
 import kimImage from "./images/kim.jpg";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         innovative products, and solve challenging puzzles!
       </p>
       <SocialLink />
+      <Heart />
     </div>
   );
 };
