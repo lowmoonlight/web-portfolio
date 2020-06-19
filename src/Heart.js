@@ -14,6 +14,7 @@ const Heart = () => {
           role="button"
           tabIndex="0"
           style={{ color: isPink ? "#ff69b4" : "#f00" }}
+          title="Click me!"
         >
           &hearts;
         </span>
