@@ -9,10 +9,8 @@ const Heart = () => {
       <p>
         Made with
         <span
-          onMouseEnter={() => setIsPink(!isPink)}
-          onMouseLeave={() => setIsPink(!isPink)}
-          onFocus={() => setIsPink(!isPink)}
-          onBlur={() => setIsPink(!isPink)}
+          onClick={() => setIsPink(!isPink)}
+          onKeyUp={() => setIsPink(!isPink)}
           role="button"
           tabIndex="0"
           style={{ color: isPink ? "#ff69b4" : "#f00" }}
