@@ -7,9 +7,10 @@ const Intro = () => {
       <p>
         I have been working as a web developer for about 4 years but have been
         building websites since the late 1990s when I built my first website
-        using America Online&apos;s website builder. I love the thrill of
-        discovering how to use technology to solve real-world problems, build
-        innovative products, and solve challenging puzzles!
+        using America Online&apos;s website builder. I have mostly worked with
+        HTML, CSS/Sass, jQuery, and PHP but am currently studying vanilla
+        JavaScript and React to get up to speed with those languages. There is
+        nothing better than the thrill of getting things built using code!
       </p>
       <p>
         <Link to="/details">Learn more about Kim</Link>
