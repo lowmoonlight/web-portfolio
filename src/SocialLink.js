@@ -12,7 +12,10 @@ const SocialLink = () => {
       platform: "LinkedIn",
       url: "http://www.linkedin.com/in/kimberly-blott-199478121",
     },
-    { key: "3", platform: "GitHub", url: "https://github.com/lowmoonlight/" },
+    { key: "3",
+      platform: "GitHub",
+      url: "https://github.com/lowmoonlight/",
+    },
   ];
 
   return (

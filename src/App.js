@@ -19,7 +19,7 @@ const App = () => {
         className="kim-image"
         alt="Kim Blott smiling into camera"
       />
-      <h2>Web Developer | Problem Solver | Reformed Coffee Drinker</h2>
+      <h2>Web Developer | Problem Solver | Coffee Drinker</h2>
       <Router>
         <Intro path="/" />
         <Details path="/details" />
